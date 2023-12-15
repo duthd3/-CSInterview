@@ -25,7 +25,7 @@ def quick_sort(array, start, end):
   left, right = start + 1, end
 
   while left <= right:
-    # 피벗보다 작은 데이터를 찾을 때까지 반복
+    # 피벗보다 큰 데이터를 찾을 때까지 반복
     while left <= end and array[left] <= array[pivot]:
       left += 1
     # 피벗보다 작은 데이터를 찾을 때까지 반복
