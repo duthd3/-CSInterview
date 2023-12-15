@@ -52,5 +52,5 @@ DNS는 UDP를 53번 port에서 사용함.
 
 그러나 TCP를 사용하는 경우가 있다.
 Zone transfer을 사용해야 하는 경우에는 TCP를 사용한다.(Zone Transfer: DNS 서버 간의 요청을 주고 받을 때 사용하는 transfer)
-만약에 데이터가 512 bytes를 넘거나, 응답을 못받은 경우 TCP로 함.
+만약에 데이터가 512 bytes를 넘거나, 클라이언트가 DNS로 부터 응답을 못받은 경우 TCP로 함.
 
