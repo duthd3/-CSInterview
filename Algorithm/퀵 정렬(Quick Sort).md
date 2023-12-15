@@ -32,7 +32,7 @@ def quick_sort(array, start, end):
     while right > start and array[right] >= array[pivot] :
       right -= 1
     if left > right: # 엇갈렸다면 작은 데이터와 피벗을 교체
-      array[right], array[left] array[pivot], array[right]
+      array[right], array[pivot] = array[pivot], array[right]
     else: # 엇갈리지 않았다면 작은 데이터와 큰 데이터를 교체
       array[left], array[right] = array[right], array[left]
   # 분할 이후 왼쪽 부분과 오른쪽 부분에서 각자 정렬 수행
